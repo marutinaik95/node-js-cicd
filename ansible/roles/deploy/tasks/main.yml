@@ -9,6 +9,6 @@
     dest: /home/ubuntu/demo-stack.yml
 
 - name: Deploy Application
-  shell: "docker stack deploy -c demo-stack.yml python"
+  shell: "docker stack deploy -c demo-stack.yml nodejs"
   args:
     chdir: /home/ubuntu
